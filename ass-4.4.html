@@ -3,29 +3,28 @@
   <head>
     <meta charset="utf-8">
 	<title>animate</title>
-	<style>                                             /* animation property to ride dib box */
+	<style>                                             /* animation property to ride div box */
 	  div{
-		position: relative;
-		animation-name: mymove ;
-	    animation-duration: 5s;
-		animation-timing-function: linear;
-		animation-delay: 1s;
-	    animation-iteration-count: infinite;
-        animation-direction: normal;
-        animation-fill-mode:forwards;
-        animation-play-state:running;	
-		}
-	  @keyframes mymove {
-         from {left: 0px;}
-         to {left: 500px;}
-         }
-	
+	      position: relative;
+	      animation-name: mymove;
+	      animation-duration: 5s;
+	      animation-timing-function: linear;
+              animation-delay: 1s;
+	      animation-iteration-count: infinite;
+              animation-direction: normal;
+              animation-fill-mode:forwards;
+              animation-play-state:running;	
+	      }
+         @keyframes mymove {
+             from {left: 0px;}
+             to {left: 500px;}
+             }
 	</style>
-  </head>
+     </head>
 	 <!-- bicycle image in div box-->
-   <body>
+     <body>
 	 <div>
 	    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0HKWg5YG-ItVOpiohLEolFP9RsGDUKhCG8-uQnT0qFBfOWROvaA">		
-     </div>
-   </body>
-  </html> 
+        </div>
+     </body>
+   </html> 
